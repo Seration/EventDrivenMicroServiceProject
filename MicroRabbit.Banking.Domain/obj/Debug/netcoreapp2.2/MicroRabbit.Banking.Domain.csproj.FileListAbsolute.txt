@@ -1,0 +1,8 @@
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\bin\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.deps.json
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\bin\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.dll
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\bin\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.pdb
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.AssemblyInfoInputs.cache
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.AssemblyInfo.cs
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.dll
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.pdb
