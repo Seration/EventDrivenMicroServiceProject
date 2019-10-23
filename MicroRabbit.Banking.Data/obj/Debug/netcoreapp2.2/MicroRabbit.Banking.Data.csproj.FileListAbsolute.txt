@@ -12,3 +12,5 @@ C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Data\bin\Deb
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Data\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Data.csproj.CopyComplete
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Data\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Data.dll
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Data\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Data.pdb
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Data\bin\Debug\netcoreapp2.2\MicroRabbit.Domain.Core.dll
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Data\bin\Debug\netcoreapp2.2\MicroRabbit.Domain.Core.pdb

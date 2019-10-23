@@ -240,7 +240,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

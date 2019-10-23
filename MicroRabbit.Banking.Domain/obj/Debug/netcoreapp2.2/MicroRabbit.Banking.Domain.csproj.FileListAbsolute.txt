@@ -6,3 +6,7 @@ C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\D
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.AssemblyInfo.cs
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.dll
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.pdb
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\bin\Debug\netcoreapp2.2\MicroRabbit.Domain.Core.dll
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\bin\Debug\netcoreapp2.2\MicroRabbit.Domain.Core.pdb
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.csprojAssemblyReference.cache
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Domain\obj\Debug\netcoreapp2.2\MicroRabbit.Banking.Domain.csproj.CopyComplete
