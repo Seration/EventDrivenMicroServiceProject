@@ -29,3 +29,5 @@ C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Api\bin\Deb
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp2.2\MicroRabbit.Infra.Bus.pdb
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp2.2\MicroRabbit.Transfer.Domain.pdb
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Api\obj\Debug\netcoreapp2.2\MicroRabbit.Transfer.Api.csproj.CopyComplete
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp2.2\MicroRabbit.Transfer.Application.dll
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Api\bin\Debug\netcoreapp2.2\MicroRabbit.Transfer.Application.pdb

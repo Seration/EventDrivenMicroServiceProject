@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "b33fa52a70f2954afbde12f86355faf813ac0db2"
+    "signature": "2671779ed8472847516de5273ccbb75fd21a7807"
   },
   "compilationOptions": {
     "defines": [
@@ -230,7 +230,7 @@
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Abstractions": "2.2.6",
           "Microsoft.EntityFrameworkCore.Analyzers": "2.2.6",
-          "Microsoft.EntityFrameworkCore.Design": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
           "Microsoft.EntityFrameworkCore.InMemory": "2.2.0",
           "Microsoft.EntityFrameworkCore.Relational": "2.2.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
@@ -1926,15 +1926,15 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/2.2.6": {},
-      "Microsoft.EntityFrameworkCore.Design/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Design/2.2.6": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
           "Microsoft.EntityFrameworkCore.Relational": "2.2.6"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18316"
+            "assemblyVersion": "2.2.6.0",
+            "fileVersion": "2.2.6.19169"
           }
         },
         "compile": {
@@ -1986,7 +1986,7 @@
       },
       "Microsoft.EntityFrameworkCore.Tools/2.2.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.2.0"
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
@@ -4210,6 +4210,7 @@
         "dependencies": {
           "MediatR": "7.0.0",
           "MicroRabbit.Domain.Core": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
           "Newtonsoft.Json": "12.0.2",
           "RabbitMQ.Client": "5.1.2"
@@ -4228,6 +4229,8 @@
           "MicroRabbit.Banking.Domain": "1.0.0",
           "MicroRabbit.Domain.Core": "1.0.0",
           "MicroRabbit.Infra.Bus": "1.0.0",
+          "MicroRabbit.Transfer.Application": "1.0.0",
+          "MicroRabbit.Transfer.Data": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0"
         },
         "runtime": {
@@ -4235,6 +4238,43 @@
         },
         "compile": {
           "MicroRabbit.Infra.IoC.dll": {}
+        }
+      },
+      "MicroRabbit.Transfer.Application/1.0.0": {
+        "dependencies": {
+          "MicroRabbit.Domain.Core": "1.0.0",
+          "MicroRabbit.Transfer.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MicroRabbit.Transfer.Application.dll": {}
+        },
+        "compile": {
+          "MicroRabbit.Transfer.Application.dll": {}
+        }
+      },
+      "MicroRabbit.Transfer.Data/1.0.0": {
+        "dependencies": {
+          "MicroRabbit.Transfer.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
+        },
+        "runtime": {
+          "MicroRabbit.Transfer.Data.dll": {}
+        },
+        "compile": {
+          "MicroRabbit.Transfer.Data.dll": {}
+        }
+      },
+      "MicroRabbit.Transfer.Domain/1.0.0": {
+        "dependencies": {
+          "MicroRabbit.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "MicroRabbit.Transfer.Domain.dll": {}
+        },
+        "compile": {
+          "MicroRabbit.Transfer.Domain.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.2.0": {
@@ -5175,12 +5215,12 @@
       "path": "microsoft.entityframeworkcore.analyzers/2.2.6",
       "hashPath": "microsoft.entityframeworkcore.analyzers.2.2.6.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/2.2.0": {
+    "Microsoft.EntityFrameworkCore.Design/2.2.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mcsUEzg1bWvPgj/isz7aabDy41x+x8WBTmSF+JFsDGe3K5ZElWT2FSr3LLmkXk/5BLWJ3f9SDe0YR55u3ZgHrw==",
-      "path": "microsoft.entityframeworkcore.design/2.2.0",
-      "hashPath": "microsoft.entityframeworkcore.design.2.2.0.nupkg.sha512"
+      "sha512": "sha512-ouDKXTXY+ItF+PAK/jkp+Cp6Ve8Pd9sblyqOErjaiK7CzeN28peFsv3NfDeoqTAXXCCKEyuv/iXYtLs4r3wI0w==",
+      "path": "microsoft.entityframeworkcore.design/2.2.6",
+      "hashPath": "microsoft.entityframeworkcore.design.2.2.6.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.InMemory/2.2.0": {
       "type": "package",
@@ -6433,6 +6473,21 @@
       "sha512": ""
     },
     "MicroRabbit.Infra.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroRabbit.Transfer.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroRabbit.Transfer.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroRabbit.Transfer.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

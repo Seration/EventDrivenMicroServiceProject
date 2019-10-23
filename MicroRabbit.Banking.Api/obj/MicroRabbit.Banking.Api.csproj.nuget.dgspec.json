@@ -372,6 +372,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -439,6 +443,12 @@
               },
               "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Infra.Bus\\MicroRabbit.Infra.Bus.csproj": {
                 "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Infra.Bus\\MicroRabbit.Infra.Bus.csproj"
+              },
+              "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Applicationx\\MicroRabbit.Transfer.Application.csproj": {
+                "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Applicationx\\MicroRabbit.Transfer.Application.csproj"
+              },
+              "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj": {
+                "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj"
               }
             }
           }
@@ -456,6 +466,195 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Applicationx\\MicroRabbit.Transfer.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Applicationx\\MicroRabbit.Transfer.Application.csproj",
+        "projectName": "MicroRabbit.Transfer.Application",
+        "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Applicationx\\MicroRabbit.Transfer.Application.csproj",
+        "packagesPath": "C:\\Users\\Sercan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Applicationx\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sercan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj"
+              },
+              "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj": {
+                "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj",
+        "projectName": "MicroRabbit.Transfer.Data",
+        "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Data\\MicroRabbit.Transfer.Data.csproj",
+        "packagesPath": "C:\\Users\\Sercan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sercan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj": {
+                "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj",
+        "projectName": "MicroRabbit.Transfer.Domain",
+        "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Domain\\MicroRabbit.Transfer.Domain.csproj",
+        "packagesPath": "C:\\Users\\Sercan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sercan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Sercan\\Desktop\\MicroRabbit\\MicroRabbit\\MicroRabbit.Domain.Core\\MicroRabbit.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

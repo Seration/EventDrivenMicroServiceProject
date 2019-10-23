@@ -7,3 +7,8 @@ C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Applicationx\obj\Debug\netcoreapp2.2\MicroRabbit.Transfer.Application.dll
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Applicationx\obj\Debug\netcoreapp2.2\MicroRabbit.Transfer.Application.pdb
 C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Applicationx\obj\Debug\netcoreapp2.2\MicroRabbit.Transfer.Application.csprojAssemblyReference.cache
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Applicationx\bin\Debug\netcoreapp2.2\MicroRabbit.Domain.Core.dll
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Applicationx\bin\Debug\netcoreapp2.2\MicroRabbit.Transfer.Domain.dll
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Applicationx\bin\Debug\netcoreapp2.2\MicroRabbit.Domain.Core.pdb
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Applicationx\bin\Debug\netcoreapp2.2\MicroRabbit.Transfer.Domain.pdb
+C:\Users\Sercan\Desktop\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Applicationx\obj\Debug\netcoreapp2.2\MicroRabbit.Transfer.Application.csproj.CopyComplete

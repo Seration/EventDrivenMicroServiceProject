@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
+using MicroRabbit.Domain.Core.Bus;
 using MicroRabbit.Infra.IoC;
 using MicroRabbit.Transfer.Data.Context;
+using MicroRabbit.Transfer.Domain.EventHandlers;
+using MicroRabbit.Transfer.Domain.Events;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -38,7 +41,7 @@ namespace MicroRabbit.Transfer.Api
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Banking Microservice", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "Transfer Microservice", Version = "v1" });
             });
 
             services.AddMediatR(typeof(Startup));
@@ -72,6 +75,14 @@ namespace MicroRabbit.Transfer.Api
             });
 
             app.UseMvc();
+
+            ConfigureEventBus(app);
+        }
+
+        private void ConfigureEventBus(IApplicationBuilder app)
+        {
+            var eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+            eventBus.Subscribe<TransferCreateEvent, TransferEventHandler>();
         }
     }
     
